@@ -1,0 +1,1378 @@
+
+<!doctype html>
+
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Daisy's Delightful Doodles - Puppies for Sale</title>
+</head>
+
+<body>
+  
+  <div id="Statistics" align="center">
+    
+    <table width="500" align="center" style="display:none;">
+    <tr>
+    <th>Name</th>
+    <th> Collar Color</th>
+    <th> Weight At Birth</th>
+    <th> Time Of Birth</th>
+    <th> Sex</th>
+  </tr>
+    <tr>
+      <td>Arman</td>
+      <td> blue</td>
+      <td>0.659</td>
+      <td> 11:15 am</td>
+      <td> boy</td>
+    </tr>
+    <tr>
+      <td>Carlos</td>
+      <td> brown</td>
+      <td>0.593</td>
+      <td> 11:43 am</td>
+      <td> boy</td>
+    </tr>
+    <tr>
+      <td>Clifford</td>
+      <td> red</td>
+      <td>0.56</td>
+      <td> 12:20 pm</td>
+      <td> boy</td>
+    </tr>
+    <tr>
+      <td>Elsa</td>
+      <td> yellow</td>
+      <td>0.428</td>
+      <td> 12:00 pm</td>
+      <td> girl</td>
+    </tr>
+    <tr>
+      <td>Jake</td>
+      <td> purple</td>
+      <td>0.644</td>
+      <td> 11:33 am</td>
+      <td> boy</td>
+    </tr>
+    <tr>
+      <td>Mia</td>
+      <td> pink</td>
+      <td>0.472</td>
+      <td> 11:05 am</td>
+      <td> girl</td>
+    </tr>
+    <tr>
+      <td>Miracle</td>
+      <td> orange</td>
+      <td>0.677</td>
+      <td> 3:00 pm</td>
+      <td> boy</td>
+    </tr>
+    <tr>
+      <td>Princess</td>
+      <td> white</td>
+      <td>0.573</td>
+      <td> 10am</td>
+      <td> girl</td>
+    </tr>
+    <tr>
+      <td>Scooby</td>
+      <td> black</td>
+      <td>0.668</td>
+      <td> 10:45 am</td>
+      <td> boy</td>
+    </tr>
+    <tr>
+      <td>Shadow</td>
+      <td> gray</td>
+      <td>0.514</td>
+      <td> 12:40 pm</td>
+      <td> boy</td>
+    </tr>
+  </table>
+  
+  </div>
+  
+<div id="Arman" style="padding-bottom: 100px;">
+    
+    <div align="center">
+      <div style="text-align:center; color: white; background-color: #CCC; width: 300px;">
+      <a href="mailto:sherripattersonaz@gmail.com" style=" text-align:center;">Taking $500 Deposits Now!</a></div>
+    </div>
+    
+    <br>
+    
+    <div style="color: rgb(51, 51, 51); font-family: Lato, sans-serif; font-size: 16px; font-weight: 400;" align="center">
+      <div id="166387599414572986" align="center" class="wcustomhtml">
+        
+        <!--<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="margin: 0px; padding: 0px; border: 0px;">
+          <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" 
+                 style="margin: 0px; font-size: 16px; vertical-align: middle; line-height: normal; padding: 0px; border: 0px;">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" style="vertical-align: middle; border: 0px; margin: 0px; padding: 0px;">
+        </form> -->
+        
+       <div id="paypal-button-container"></div>
+<script src="https://www.paypalobjects.com/api/checkout.js"></script>
+<script>
+// Render the PayPal button
+paypal.Button.render({
+// Set your environment
+env: 'sandbox', // sandbox | production
+
+// Specify the style of the button
+style: {
+  layout: 'vertical',  // horizontal | vertical
+  size:   'medium',    // medium | large | responsive
+  shape:  'rect',      // pill | rect
+  color:  'gold'       // gold | blue | silver | white | black
+},
+
+// Specify allowed and disallowed funding sources
+//
+// Options:
+// - paypal.FUNDING.CARD
+// - paypal.FUNDING.CREDIT
+// - paypal.FUNDING.ELV
+funding: {
+  allowed: [
+    paypal.FUNDING.CARD,
+    paypal.FUNDING.CREDIT
+  ],
+  disallowed: []
+},
+
+// Enable Pay Now checkout flow (optional)
+commit: true,
+
+// PayPal Client IDs - replace with your own
+// Create a PayPal app: https://developer.paypal.com/developer/applications/create
+// sherri  AU0BnWxzLxATDFbZyj1FClQCg7rlM8_LpcOcMbNTTg9kF87azGlcKsspM4LHj1j7PK3qdt3WBsAeSVtb
+// mine    AVcIap-ik_VLNBnszDqC3rw6ym3hzbii14W6WSP8Ag5-ndYl1Eu4BaHeiQPrT2pL2dr3g6K-bpxTPOQm
+client: {
+  sandbox: 'AU0BnWxzLxATDFbZyj1FClQCg7rlM8_LpcOcMbNTTg9kF87azGlcKsspM4LHj1j7PK3qdt3WBsAeSVtb',
+  production: '<insert production client id>'
+},
+
+payment: function (data, actions) {
+  return actions.payment.create({
+    payment: {
+      transactions: [
+        {
+          amount: {
+            total: '0.01',
+            currency: 'USD'
+          }
+        }
+      ]
+    }
+  });
+},
+
+onAuthorize: function (data, actions) {
+  return actions.payment.execute()
+    .then(function () {
+      window.alert('Payment Complete!');
+    });
+}
+}, '#paypal-button-container');
+</script>
+      
+      </div>
+    </div>
+    
+    <br>
+    
+    <div style="color: rgb(51, 51, 51); font-family: Lato, sans-serif; font-size: 16px; font-weight: 400;" align="center">
+      <div class="wsite-multicol">
+        <div class="wsite-multicol-table-wrap">
+        
+          <table class="wsite-multicol-table">
+          
+            <tbody class="wsite-multicol-tbody">
+        
+              <tr class="wsite-multicol-tr">
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Arman/Arman_14days_1.jpg.png" width="300">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Arman 1
+                  </div>
+                </td>
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Arman/Arman_14days_2.jpg.png" width="300">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Arman 2
+                  </div>
+                </td>
+
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Arman/Arman_14days_3.jpg.png" width="300">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Arman 3
+                  </div>
+                </td>
+                
+              </tr>
+              
+              <tr class="wsite-multicol-tr">
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Arman/Arman_14days_4.jpg.png" width="300">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Arman 4
+                  </div>
+                </td>
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Arman/Arman_14days_5.jpg.png" width="300">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Arman 5
+                  </div>
+                </td>
+
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Arman/Arman_14days_6.jpg.png" width="300">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Arman 6
+                  </div>
+                </td>
+                
+              </tr>
+
+              <tr class="wsite-multicol-tr">
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Arman/Arman_26days_1.jpg" width="300">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Arman 7
+                  </div>
+                </td>
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Arman/Arman_26days_2.jpg" width="300">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Arman 8
+                  </div>
+                </td>
+
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Arman/Arman_26days_3.jpg" width="300">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Arman 9
+                  </div>
+                </td>
+                
+              </tr>
+
+              <tr class="wsite-multicol-tr">
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Arman/Arman_26days_4.jpg" width="300">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Arman 10
+                  </div>
+                </td>
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Arman/Arman_26days_5.jpg" width="300">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Arman 11
+                  </div>
+                </td>
+
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Arman/Arman_26days_6.jpg" width="300">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Arman 12
+                  </div>
+                </td>
+                
+              </tr>
+
+              <tr class="wsite-multicol-tr">
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Arman/Arman_26days_7.jpg" width="300">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Arman 13
+                  </div>
+                </td>
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Arman/Arman_26days_8.jpg" width="300">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Arman 14
+                  </div>
+                </td>
+                
+              </tr>
+
+            </tbody>
+            
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="Carlos" style="padding-bottom: 100px;">
+    
+    <div align="center">
+      <div style="text-align:center; color: white; background-color: #CCC; width: 300px;">
+        <a href="mailto:sherripattersonaz@gmail.com" style=" text-align:center;">Taking $500 Deposits Now!</a>
+      </div>
+    </div>
+    
+    <br>
+    
+    <div style="color: rgb(51, 51, 51); font-family: Lato, sans-serif; font-size: 16px; font-weight: 400;" align="center">
+      <div id="166387599414572986" align="center" class="wcustomhtml">
+<!--        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="margin: 0px; padding: 0px; border: 0px;">
+          <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" 
+                 style="margin: 0px; font-size: 16px; vertical-align: middle; line-height: normal; padding: 0px; border: 0px;">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" style="vertical-align: middle; border: 0px; margin: 0px; padding: 0px;">
+        </form>
+-->      </div>
+    </div>
+    
+    <br>
+    
+    <div style="color: rgb(51, 51, 51); font-family: Lato, sans-serif; font-size: 16px; font-weight: 400;" align="center">
+      <div class="wsite-multicol">
+        <div class="wsite-multicol-table-wrap">
+        
+          <table class="wsite-multicol-table">
+          
+            <tbody class="wsite-multicol-tbody">
+        
+              <tr class="wsite-multicol-tr">
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Carlos/Carlos_14days_1.jpg.png" width="300">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Carlos 1
+                  </div>
+                </td>
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Carlos/Carlos_14days_2.jpg.png" width="300">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Carlos 2
+                  </div>
+                </td>
+                
+              </tr>
+              
+              <tr class="wsite-multicol-tr">
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Carlos/Carlos_14days_3.jpg.png" width="300">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Carlos 3
+                  </div>
+                </td>
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Carlos/Carlos_14days_4.jpg.png" width="300">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Carlos 4
+                  </div>
+                </td>
+
+              <tr class="wsite-multicol-tr">
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Carlos/Carlos_4weeks_1.jpg" width="300">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Carlos 5
+                  </div>
+                </td>
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Carlos/Carlos_4weeks_2.jpg" width="300">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Carlos 6
+                  </div>
+                </td>
+
+              <tr class="wsite-multicol-tr">
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Carlos/Carlos_4weeks_3.jpg" width="300">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Carlos 7
+                  </div>
+                </td>
+                
+                <td valign="middle" class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Carlos/Carlos_4weeks_4.jpg" width="300">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Carlos 8
+                  </div>
+                </td>
+                
+              </tr>
+
+            </tbody>
+            
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="Clifford" style="padding-bottom: 100px;">
+    
+    <div align="center">
+      <div style="text-align:center; color: white; background-color: #CCC; width: 300px;">
+        <a href="mailto:sherripattersonaz@gmail.com" style=" text-align:center;">Taking $500 Deposits Now!</a>
+      </div>
+    </div>
+    
+    <br>
+    
+    <div style="color: rgb(51, 51, 51); font-family: Lato, sans-serif; font-size: 16px; font-weight: 400;" align="center">
+      <div id="166387599414572986" align="center" class="wcustomhtml">
+<!--        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="margin: 0px; padding: 0px; border: 0px;">
+          <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" 
+                 style="margin: 0px; font-size: 16px; vertical-align: middle; line-height: normal; padding: 0px; border: 0px;">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" style="vertical-align: middle; border: 0px; margin: 0px; padding: 0px;">
+        </form>
+-->      </div>
+    </div>
+    
+    <br>
+    
+    <div style="color: rgb(51, 51, 51); font-family: Lato, sans-serif; font-size: 16px; font-weight: 400;" align="center">
+      <div class="wsite-multicol">
+        <div class="wsite-multicol-table-wrap">
+        
+          <table class="wsite-multicol-table">
+          
+            <tbody class="wsite-multicol-tbody">
+        
+              <tr class="wsite-multicol-tr">
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Clifford/Clifford_14days_1.jpg.png" width="300">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Clifford 1
+                  </div>
+                </td>
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Clifford/Clifford_14days_2.jpg.png" width="300">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Clifford 2
+                  </div>
+                </td>
+                
+              </tr>
+              
+              <tr class="wsite-multicol-tr">
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Clifford/Clifford_14days_3.jpg.png" width="300">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Clifford 3
+                  </div>
+                </td>
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Clifford/Clifford_14days_4.jpg.png" width="300">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Clifford 4
+                  </div>
+                </td>
+                
+              </tr>
+
+              <tr class="wsite-multicol-tr">
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Clifford/Clifford_14days_5.jpg.png" width="300">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Clifford 5
+                  </div>
+                </td>
+                                
+              </tr>
+
+            </tbody>
+            
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div id="Elsa" style="padding-bottom: 100px;">
+    
+    <div align="center">
+      <div style="text-align:center; color: white; background-color: #CCC; width: 300px;">
+        <a href="mailto:sherripattersonaz@gmail.com" style=" text-align:center;">Taking $500 Deposits Now!</a>
+      </div>
+    </div>
+    
+    <br>
+    
+    <div style="color: rgb(51, 51, 51); font-family: Lato, sans-serif; font-size: 16px; font-weight: 400;" align="center">
+      <div id="166387599414572986" align="center" class="wcustomhtml">
+<!--        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="margin: 0px; padding: 0px; border: 0px;">
+          <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" 
+                 style="margin: 0px; font-size: 16px; vertical-align: middle; line-height: normal; padding: 0px; border: 0px;">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" style="vertical-align: middle; border: 0px; margin: 0px; padding: 0px;">
+        </form>
+-->      </div>
+    </div>
+    
+    <br>
+    
+    <div style="color: rgb(51, 51, 51); font-family: Lato, sans-serif; font-size: 16px; font-weight: 400;" align="center">
+      <div class="wsite-multicol">
+        <div class="wsite-multicol-table-wrap">
+        
+          <table class="wsite-multicol-table">
+          
+            <tbody class="wsite-multicol-tbody">
+        
+              <tr class="wsite-multicol-tr">
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Elsa/Elsa_14days_1.jpg.png" width="300">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Elsa 1
+                  </div>
+                </td>
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Elsa/Elsa_14days_2.jpg.png" width="300">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Elsa 2
+                  </div>
+                </td>
+                
+              </tr>
+              
+              <tr class="wsite-multicol-tr">
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Elsa/Elsa_14days_3.jpg.png" width="300">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Elsa 3
+                  </div>
+                </td>
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Elsa/Elsa_14days_4.jpg.png" width="300">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Elsa 4
+                  </div>
+                </td>
+                
+              </tr>
+
+              <tr class="wsite-multicol-tr">
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Elsa/Elsa_14days_5.jpg.png" width="300">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Elsa 5
+                  </div>
+                </td>
+
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Elsa/Elsa_26days_1.jpg" width="300">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Elsa 6
+                  </div>
+                </td>
+                                
+              </tr>
+
+              <tr class="wsite-multicol-tr">
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Elsa/Elsa_26days_2.jpg" width="300">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Elsa 7
+                  </div>
+                </td>
+                                
+              </tr>
+
+            </tbody>
+            
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div id="Jake" style="padding-bottom: 100px;">
+    
+    <div align="center">
+      <div style="text-align:center; color: white; background-color: #CCC; width: 300px;">
+        <a href="mailto:sherripattersonaz@gmail.com" style=" text-align:center;">Taking $500 Deposits Now!</a>
+      </div>
+    </div>
+    
+    <br>
+    
+    <div style="color: rgb(51, 51, 51); font-family: Lato, sans-serif; font-size: 16px; font-weight: 400;" align="center">
+      <div id="166387599414572986" align="center" class="wcustomhtml">
+<!--        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="margin: 0px; padding: 0px; border: 0px;">
+          <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" 
+                 style="margin: 0px; font-size: 16px; vertical-align: middle; line-height: normal; padding: 0px; border: 0px;">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" style="vertical-align: middle; border: 0px; margin: 0px; padding: 0px;">
+        </form>
+-->      </div>
+    </div>
+    
+    <br>
+    
+    <div style="color: rgb(51, 51, 51); font-family: Lato, sans-serif; font-size: 16px; font-weight: 400;" align="center">
+      <div class="wsite-multicol">
+        <div class="wsite-multicol-table-wrap">
+        
+          <table class="wsite-multicol-table">
+          
+            <tbody class="wsite-multicol-tbody">
+        
+              <tr class="wsite-multicol-tr">
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Jake/Jake_14days_1.jpg.png" width="300">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Jake 1
+                  </div>
+                </td>
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Jake/Jake_14days_2.jpg.png" width="300">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Jake 2
+                  </div>
+                </td>
+                
+              </tr>
+              
+              <tr class="wsite-multicol-tr">
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Jake/Jake_14days_3.jpg.png" width="300">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Jake 3
+                  </div>
+                </td>
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Jake/Jake_14days_4.jpg.png" width="300">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Jake 4
+                  </div>
+                </td>
+                
+              </tr>
+
+            </tbody>
+            
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div id="Mia" style="padding-bottom: 100px;">
+    
+    <div align="center">
+      <div style="text-align:center; color: white; background-color: #CCC; width: 300px;">
+        <a href="mailto:sherripattersonaz@gmail.com" style=" text-align:center;">Taking $500 Deposits Now!</a>
+      </div>
+    </div>
+    
+    <br>
+    
+    <div style="color: rgb(51, 51, 51); font-family: Lato, sans-serif; font-size: 16px; font-weight: 400;" align="center">
+      <div id="166387599414572986" align="center" class="wcustomhtml">
+<!--        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="margin: 0px; padding: 0px; border: 0px;">
+          <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" 
+                 style="margin: 0px; font-size: 16px; vertical-align: middle; line-height: normal; padding: 0px; border: 0px;">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" style="vertical-align: middle; border: 0px; margin: 0px; padding: 0px;">
+        </form>
+-->      </div>
+    </div>
+    
+    <br>
+    
+    <div style="color: rgb(51, 51, 51); font-family: Lato, sans-serif; font-size: 16px; font-weight: 400;" align="center">
+      <div class="wsite-multicol">
+        <div class="wsite-multicol-table-wrap">
+        
+          <table class="wsite-multicol-table">
+          
+            <tbody class="wsite-multicol-tbody">
+        
+              <tr class="wsite-multicol-tr">
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Mia/Mia_14days_1.jpg.png" width="300">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Mia 1
+                  </div>
+                </td>
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Mia/Mia_14days_2.jpg.png" width="300">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Mia 2
+                  </div>
+                </td>
+                
+              </tr>
+              
+              <tr class="wsite-multicol-tr">
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Mia/Mia_14days_3.jpg.png" width="300">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Mia 3
+                  </div>
+                </td>
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Mia/Mia_14days_4.jpg.png" width="300">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Mia 4
+                  </div>
+                </td>
+                
+              </tr>
+
+            </tbody>
+            
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div id="Miracle" style="padding-bottom: 100px;">
+    
+    <div align="center">
+      <div style="text-align:center; color: white; background-color: #CCC; width: 300px;">
+        <a href="mailto:sherripattersonaz@gmail.com" style=" text-align:center;">Taking $500 Deposits Now!</a>
+      </div>
+    </div>
+    
+    <br>
+    
+    <div style="color: rgb(51, 51, 51); font-family: Lato, sans-serif; font-size: 16px; font-weight: 400;" align="center">
+      <div id="166387599414572986" align="center" class="wcustomhtml">
+<!--        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="margin: 0px; padding: 0px; border: 0px;">
+          <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" 
+                 style="margin: 0px; font-size: 16px; vertical-align: middle; line-height: normal; padding: 0px; border: 0px;">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" style="vertical-align: middle; border: 0px; margin: 0px; padding: 0px;">
+        </form>
+-->      </div>
+    </div>
+    
+    <br>
+    
+    <div style="color: rgb(51, 51, 51); font-family: Lato, sans-serif; font-size: 16px; font-weight: 400;" align="center">
+      <div class="wsite-multicol">
+        <div class="wsite-multicol-table-wrap">
+        
+          <table class="wsite-multicol-table">
+          
+            <tbody class="wsite-multicol-tbody">
+        
+              <tr class="wsite-multicol-tr">
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Miracle/Miracle_14days_1.jpg.png" width="300">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Miracle 1
+                  </div>
+                </td>
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Miracle/Miracle_14days_2.jpg.png" width="300">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Miracle 2
+                  </div>
+                </td>
+
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Miracle/Miracle_14days_3.jpg.png" width="300">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Miracle 3
+                  </div>
+                </td>
+                
+              </tr>
+              
+              <tr class="wsite-multicol-tr">
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Miracle/Miracle_14days_4.jpg.png" width="300">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Miracle 4
+                  </div>
+                </td>
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Miracle/Miracle_14days_5.jpg.png" width="300">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Miracle 5
+                  </div>
+                </td>
+
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Miracle/Miracle_14days_6.jpg.png" width="300">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Miracle 6
+                  </div>
+                </td>
+                                
+              </tr>
+
+            </tbody>
+            
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div id="Princess" style="padding-bottom: 100px;">
+    
+    <div align="center">
+      <div style="text-align:center; color: white; background-color: #CCC; width: 300px;">
+        <a href="mailto:sherripattersonaz@gmail.com" style=" text-align:center;">Taking $500 Deposits Now!</a>
+      </div>
+    </div>
+    
+    <br>
+    
+    <div style="color: rgb(51, 51, 51); font-family: Lato, sans-serif; font-size: 16px; font-weight: 400;" align="center">
+      <div id="166387599414572986" align="center" class="wcustomhtml">
+<!--        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="margin: 0px; padding: 0px; border: 0px;">
+          <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" 
+                 style="margin: 0px; font-size: 16px; vertical-align: middle; line-height: normal; padding: 0px; border: 0px;">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" style="vertical-align: middle; border: 0px; margin: 0px; padding: 0px;">
+        </form>
+-->      </div>
+    </div>
+    
+    <br>
+    
+    <div style="color: rgb(51, 51, 51); font-family: Lato, sans-serif; font-size: 16px; font-weight: 400;" align="center">
+      <div class="wsite-multicol">
+        <div class="wsite-multicol-table-wrap">
+        
+          <table class="wsite-multicol-table">
+          
+            <tbody class="wsite-multicol-tbody">
+        
+              <tr class="wsite-multicol-tr">
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Princess/Princess_14days_1.jpg.png" width="300">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Princess 1
+                  </div>
+                </td>
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Princess/Princess_14days_2.jpg.png" width="300">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Princess 2
+                  </div>
+                </td>
+                
+              </tr>
+              
+              <tr class="wsite-multicol-tr">
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Princess/Princess_14days_3.jpg.png" width="300">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Princess 3
+                  </div>
+                </td>
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Princess/Princess_14days_4.jpg.png" width="300">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Princess 4
+                  </div>
+                </td>
+                                
+              </tr>
+
+            </tbody>
+            
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div id="Scooby" style="padding-bottom: 100px;">
+    
+    <div align="center">
+      <div style="text-align:center; color: white; background-color: #CCC; width: 300px;">
+        <a href="mailto:sherripattersonaz@gmail.com" style=" text-align:center;">Taking $500 Deposits Now!</a>
+      </div>
+    </div>
+    
+    <br>
+    
+    <div style="color: rgb(51, 51, 51); font-family: Lato, sans-serif; font-size: 16px; font-weight: 400;" align="center">
+      <div id="166387599414572986" align="center" class="wcustomhtml">
+<!--        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="margin: 0px; padding: 0px; border: 0px;">
+          <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" 
+                 style="margin: 0px; font-size: 16px; vertical-align: middle; line-height: normal; padding: 0px; border: 0px;">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" style="vertical-align: middle; border: 0px; margin: 0px; padding: 0px;">
+        </form>
+-->      </div>
+    </div>
+    
+    <br>
+    
+    <div style="color: rgb(51, 51, 51); font-family: Lato, sans-serif; font-size: 16px; font-weight: 400;" align="center">
+      <div class="wsite-multicol">
+        <div class="wsite-multicol-table-wrap">
+        
+          <table class="wsite-multicol-table">
+          
+            <tbody class="wsite-multicol-tbody">
+        
+              <tr class="wsite-multicol-tr">
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Scooby/Scooby_14days_1.jpg.png" width="200">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Scooby 1
+                  </div>
+                </td>
+                                
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Scooby/Scooby_14days_2.jpg.png" width="200">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Scooby 2
+                  </div>
+                </td>
+                                
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Scooby/Scooby_14days_3.jpg.png" width="200">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Scooby 3
+                  </div>
+                </td>
+                                
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Scooby/Scooby_14days_4.jpg.png" width="200">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Scooby 4
+                  </div>
+                </td>
+                                
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Scooby/Scooby_14days_5.jpg.png" width="200">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Scooby 5
+                  </div>
+                </td>
+                                
+              </tr>
+
+              <tr class="wsite-multicol-tr">
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Scooby/Scooby_14days_6.jpg.png" width="200">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Scooby 6
+                  </div>
+                </td>
+                                
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Scooby/Scooby_14days_7.jpg.png" width="200">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Scooby 7
+                  </div>
+                </td>
+                                
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Scooby/Scooby_14days_8.jpg.png" width="200">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Scooby 8
+                  </div>
+                </td>
+                                
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Scooby/Scooby_14days_9.jpg.png" width="200">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Scooby 9
+                  </div>
+                </td>
+                                
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Scooby/Scooby_14days_10.jpg.png" width="200">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Scooby 10
+                  </div>
+                </td>
+                                
+              </tr>
+
+              <tr class="wsite-multicol-tr">
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Scooby/Scooby_26days_1.jpg" width="200">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Scooby 11
+                  </div>
+                </td>
+                                
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Scooby/Scooby_26days_2.jpg" width="200">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Scooby 12
+                  </div>
+                </td>
+                                
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Scooby/Scooby_26days_3.jpg" width="200">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Scooby 13
+                  </div>
+                </td>
+                                
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Scooby/Scooby_26days_4.jpg" width="200">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Scooby 14
+                  </div>
+                </td>
+                                
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Scooby/Scooby_26days_5.jpg" width="200">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Scooby 15
+                  </div>
+                </td>
+                                
+              </tr>
+
+              <tr class="wsite-multicol-tr">
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Scooby/Scooby_26days_6.jpg" width="200">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Scooby 16
+                  </div>
+                </td>
+                                
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Scooby/Scooby_26days_7.jpg" width="200">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Scooby 17
+                  </div>
+                </td>
+                                
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Scooby/Scooby_26days_8.jpg" width="200">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Scooby 18
+                  </div>
+                </td>
+                                
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Scooby/Scooby_26days_9.jpg" width="200">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Scooby 19
+                  </div>
+                </td>
+                                
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Scooby/Scooby_26days_10.jpg" width="200">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Scooby 20
+                  </div>
+                </td>
+                                
+              </tr>
+              
+              <tr class="wsite-multicol-tr">
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Scooby/Scooby_26days_11.jpg" width="200">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Scooby 21
+                  </div>
+                </td>
+                
+              </tr>                                
+              
+            </tbody>
+            
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div id="Shadow" style="padding-bottom: 100px;">
+    
+    <div align="center">
+      <div style="text-align:center; color: white; background-color: #CCC; width: 300px;">
+        <a href="mailto:sherripattersonaz@gmail.com" style=" text-align:center;">Taking $500 Deposits Now!</a>
+      </div>
+    </div>
+    
+    <br>
+    
+    <div style="color: rgb(51, 51, 51); font-family: Lato, sans-serif; font-size: 16px; font-weight: 400;" align="center">
+      <div id="166387599414572986" align="center" class="wcustomhtml">
+<!--        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="margin: 0px; padding: 0px; border: 0px;">
+          <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" 
+                 style="margin: 0px; font-size: 16px; vertical-align: middle; line-height: normal; padding: 0px; border: 0px;">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" style="vertical-align: middle; border: 0px; margin: 0px; padding: 0px;">
+        </form>
+-->      </div>
+    </div>
+    
+    <br>
+    
+    <div style="color: rgb(51, 51, 51); font-family: Lato, sans-serif; font-size: 16px; font-weight: 400;" align="center">
+      <div class="wsite-multicol">
+        <div class="wsite-multicol-table-wrap">
+        
+          <table class="wsite-multicol-table">
+          
+            <tbody class="wsite-multicol-tbody">
+        
+              <tr class="wsite-multicol-tr">
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Shadow/Shadow_14days_1.jpg" width="200">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Shadow 1
+                  </div>
+                </td>
+                                
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Shadow/Shadow_14days_2.jpg" width="200">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Shadow 2
+                  </div>
+                </td>
+                
+              </tr>
+
+              <tr class="wsite-multicol-tr">
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Shadow/Shadow_14days_3.jpg" width="200">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Shadow 3
+                  </div>
+                </td>
+                                
+                
+                <td class="wsite-multicol-col" style="vertical-align: top; padding: 0px 15px;">
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                    <img src="assets/images/puppies/Shadow/Shadow_14days_4.jpg" width="200">
+                  </div>
+                  <div class="wsite-image wsite-image-border-none" style="text-align: center;">
+                      Shadow 4
+                  </div>
+                </td>
+                
+              </tr>
+              
+            </tbody>
+            
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+              
+</body>
+</html>

@@ -1,0 +1,9 @@
+1. go to the following link:  https://developer.paypal.com/developer/applications/
+2. Click 'Log into Dashboard' and enter your credentials
+3. Scroll down to 'REST API apps' and click 'Create App'
+4. Enter the following app name exactly as it shows here:     DaisysDelightfulDoodles
+5. Click the 'Create App' button
+6. Email me the resulting 'Client ID' string
+
+I will put that long client id string into the code, and then the paypal code will work.
+
